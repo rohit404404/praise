@@ -1,0 +1,130 @@
+@media only screen and (max-width : 1279px)  {
+    .container { width: 100%; max-width: 1279px}
+	.leftheader { width: 40% }
+.rightheader {float: right;width: 60%; }
+    .accorddetail { float: none}
+    .valuemeter h2 { float: none; padding: 1em 0 0}
+    #leaderboard .owl-dots .owl-dot { display: inline; margin: 0 auto}
+}
+    
+
+
+@media only screen and (min-width : 1024px) and (max-width : 1279px) {
+.valuemeter { float: left; width: 70%;}
+    .sendacard {padding: 4em 2em 2em}
+    #midcontent { margin-top: 2em}
+    .accorddetail { margin: 0 auto; width: 600px}
+    #leaderboard .owl-carousel { width: 450px; margin: 0 auto}
+    #leaderboard {width: 70%; padding-left: 0; padding-bottom: 1.5em}
+    #trending { width: 30%; margin: 0; padding: 0 2em; box-sizing: border-box}
+    .mybadges ul.firstactive li p { font-size: 1.2em}
+    .mybadges ul.firstactive li img { width: 30px}
+    .mybadges ul.firstactive li { width: 33%; padding: 1em}
+    .mybadges ul li img { width: 45px}
+    .mybadges p { padding: 1.5em 0.5em}
+    .carddetails img { width: 90%; height: auto}
+    #leaderboard .owl-controls .owl-nav div.owl-next {right: -25px}
+
+}
+
+@media only screen and (max-width : 1023px){
+    .my_managerpoints { width: 300px; margin: 0 auto; float: none}
+    .my_managerpoints ul.tab { padding-top: 2em}
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    .valuemeter { float: left; width: 55%}
+	.accorddetail { width: 300px; margin: 0 auto}
+    .sendacard {padding: 12em 4em 0 3em}
+    #midcontent { margin-top: 2em}
+    #leaderboard .owl-carousel { width: 220px; margin: 0 auto}
+    #leaderboard {width: 50%; padding-left: 0; padding-bottom: 1.5em}
+    #trending { width: 50%; margin: 0; padding: 0 2em; box-sizing: border-box}
+    .mybadges { width: 50%; box-sizing: border-box}
+    .mybadges ul.firstactive li { width: 33%; padding: 1em}
+    .mybadges ul li img { width: 45px}
+    .mybadges ul.firstactive li img { width: 30px}
+    .mybadges  p {padding-left: 0; padding-right: 0}
+    .mybadges ul.firstactive li p { font-size: 1.2em}
+    .carddetails { width: 50%; box-sizing: border-box; padding: 2em 2em 1em}
+    .carddetails img { width: 90%; height: auto}
+    .carddetails p { font-size: 1.4em}
+    .carddetails .owl-controls .owl-nav div.owl-prev {left: -8px}
+    .carddetails .owl-controls .owl-nav div.owl-next {right: -8px}
+}
+
+
+
+@media only screen and (max-width : 767px) {
+
+    #midcontent { margin-top: 0}
+    .welcome p { display: none}
+    header { background: none}
+    .valuemeter { float: left; width: 100%}
+    .valuemeter h2 { cursor: pointer;font-size: 2em; font-family: 'gotham_htfblack'; font-weight: normal; text-align: center; text-transform: uppercase; padding: 0}
+    .valuemeter h2 span {background: url(../images/bg-valuemeter.png) no-repeat 5px 6px; padding: 0 0 0 1.5em }
+    .valuemeter h2.active span {background: url(../images/bg-valuemeter-active.png) no-repeat 5px 6px; padding: 0 0 0 1.5em }
+    .accorddetail { display: none; width: 600px; margin: 0 auto; }
+    .bars { width: 100%; float: left; display: block; margin: 1.3em 0 0}
+    .bar { width: 25%; font-size: 1px; height: 6px; float: left}
+    .sendacard {background: #ececec; padding: 2em; width: 100%; box-sizing: border-box}
+    
+    .sendacard img { display: none}
+    .sendacard p.button a { font-size: 1.6em}
+    
+    #leaderboard .owl-carousel { width: 220px; margin: 0 auto}
+    #leaderboard {width: 50%; padding-left: 0; padding-bottom: 1.5em}
+    #trending { width: 50%; margin: 0; padding: 0 2em; box-sizing: border-box}
+    .mybadges { width: 50%; box-sizing: border-box}
+    .mybadges ul.firstactive li { width: 33%; padding: 1em}
+    .mybadges ul li img { width: 45px}
+    .mybadges ul.firstactive li img { width: 30px}
+    .mybadges  p {padding-left: 0; padding-right: 0}
+    .mybadges ul.firstactive li p { font-size: 1.2em}
+    .carddetails { width: 50%; box-sizing: border-box; padding: 2em 2em 1em}
+    .carddetails img { width: 90%; max-width: 345px; height: auto}
+    .carddetails p { font-size: 1.4em}
+    .carddetails .owl-controls .owl-nav div.owl-prev {left: -10px}
+    .carddetails .owl-controls .owl-nav div.owl-next {right: -5px}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 639px) {
+    .accorddetail { width: 300px}
+   
+     #leaderboard { border-bottom: 1px solid #cacaca; width: 100%; padding-left: 0; padding-bottom: 1.5em}
+    #trending { width: 90%; margin: 0 auto; padding: 0; float: none}
+         .mybadges { width: 100%; max-width: 320px; margin: 0 auto; float: none; box-sizing: border-box}
+    .mybadges ul.firstactive li { width: auto}
+    /*.mybadges ul li img { width: 45px}
+    .mybadges ul.firstactive li img { width: 30px}
+    .mybadges  p {padding-left: 0; padding-right: 0}
+    .mybadges ul.firstactive li p { font-size: 1.2em}*/
+    .carddetails { width: 100%; margin-top: 2em}
+    #carddetails-owl-demo.owl-carousel { width: 100%; max-width: 480px; margin: 0 auto}
+   
+   
+}
+
+
+
+@media only screen and (max-width : 479px) {
+    #carddetails-owl-demo.owl-carousel { width: 100%; max-width: 480px; margin: 0 auto}
+    .carddetails { width: 100%; margin-top: 2em}
+        .mybadges { width: 100%; max-width: 320px; margin: 0 auto; float: none; box-sizing: border-box}
+    .mybadges ul.firstactive li { width: auto}
+    /*.mybadges ul li img { width: 45px}
+    .mybadges ul.firstactive li img { width: 30px}
+    .mybadges  p {padding-left: 0; padding-right: 0}
+    .mybadges ul.firstactive li p { font-size: 1.2em}*/
+     #leaderboard {border-left: none; border-bottom: 1px solid #cacaca; width: 100%; padding-left: 0; padding-bottom: 1.5em}
+    #trending { width: 90%; margin: 0 auto; padding: 0; float: none}
+    
+   
+    .accorddetail { width: 300px}
+    .menucontainer {padding: 1.5em 0.5em}
+    .logo img { width: 99px; height: auto; margin: 1.2em 0 0}
+   .leftheader { width: 31% }
+.rightheader { width: 69%; }
+    
+}
